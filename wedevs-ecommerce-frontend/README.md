@@ -1,6 +1,4 @@
-# peakn
-
-> My luminous Nuxt.js project
+# Wedevs Ecommerce Frontend
 
 ## Build Setup
 
