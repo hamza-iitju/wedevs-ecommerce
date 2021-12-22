@@ -1,5 +1,7 @@
 # Wedevs Ecommerce Frontend
 
+## This project is about vuejs nuxtjs with laravel sanctum authentication
+
 ## Build Setup
 
 ``` bash
