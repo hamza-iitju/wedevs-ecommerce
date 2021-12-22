@@ -6,4 +6,4 @@ after completing the installation run the projects and go to the following link 
 
 Backend: http://127.0.0.1:8000/admin
 
-Frontend: http://127.0.0.1:3000
+Frontend: localhost:3000
