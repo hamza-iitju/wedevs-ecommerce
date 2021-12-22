@@ -22,6 +22,11 @@ composer install
 php artisan migrate --seed
 ```
 
+## For getting image run 
+```
+php artisan storage:link
+```
+
 ## Run the webserver on port 8000
 ```
 php artisan serve
