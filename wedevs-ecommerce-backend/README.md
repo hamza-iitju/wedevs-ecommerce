@@ -1,49 +1,39 @@
-# Laravel REST API with Sanctum
-
-This is an example of a REST API using auth tokens with Laravel Sanctum
+# Wedevs Ecommerce backend 
+# Laravel REST API with Sanctum and back end
 
 ## Usage
 
 Change the *.env.example* to *.env* and add your database info
 
-For SQLite, add
+For MySQL, add
 ```
-DB_CONNECTION=sqlite
-DB_HOST=127.0.0.1
-DB_PORT=3306
+DB_DATABASE=your_DB_name
+DB_USERNAME=root
+DB_PASSWORD=
 ```
 
-Create a _database.sqlite_ file in the _database_ directory
-
+## Install the depencies with command
 ```
-# Run the webserver on port 8000
+composer install
+```
+
+## Migration the database and dummy value
+```
+php artisan migrate --seed
+```
+
+## For getting image run 
+```
+php artisan storage:link
+```
+
+## Run the webserver on port 8000
+```
 php artisan serve
 ```
-
-## Routes
-
+# Follow the admin panel
 ```
-# Public
-
-GET   /api/products
-GET   /api/products/:id
-
-POST   /api/login
-@body: email, password
-
-POST   /api/register
-@body: name, email, password, password_confirmation
-
-
-# Protected
-
-POST   /api/products
-@body: name, slug, description, price
-
-PUT   /api/products/:id
-@body: ?name, ?slug, ?description, ?price
-
-DELETE  /api/products/:id
-
-POST    /api/logout
+http://127.0.0.1:8000/admin
+email: hamza.iitju@gmail.com
+password: hamza123
 ```

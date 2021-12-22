@@ -1,6 +1,6 @@
-# peakn
+# Wedevs Ecommerce Frontend
 
-> My luminous Nuxt.js project
+## This project is about vuejs nuxtjs with laravel sanctum authentication
 
 ## Build Setup
 
